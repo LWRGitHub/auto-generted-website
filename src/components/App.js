@@ -19,9 +19,10 @@ function App() {
       <div className="App">
         <Header />
         <Switch>
-          <Route exact path="/home" component={Home} />
+          <Route path="/home" component={Home} />
           <Route path="/signup" component={SignUp} />
           <Route path="/account" component={Account} />
+          <Route component={Home} />
         </Switch>
         {/* <Footer /> */}
       </div>
